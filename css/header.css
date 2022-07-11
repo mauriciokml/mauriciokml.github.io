@@ -1,3 +1,7 @@
+:root {
+    --txt1: #141414;
+}
+
 .cabecalho {
     max-width: 1200px;
     padding: 40px 20px;
@@ -19,7 +23,7 @@
     line-height: 1.3;
     padding: 10px 20px;
     text-decoration: none;
-    color: #141414;
+    color: var(--txt1);
     display: block;
 }
 .cabecalho_menu a:hover {

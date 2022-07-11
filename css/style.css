@@ -1,8 +1,12 @@
+:root {
+    --txt1 : #141414;
+}
+
 body {
     max-width: 1200px;
     margin: 0px;
     font-family: roboto,Arial, Helvetica, sans-serif;
-    color: #141414 ;
+    color: var(--txt1) ;
     background: #f7f7f7;
     justify-items: center;
     gap: 60px;
@@ -23,7 +27,7 @@ body {
     display:inline;
     align-items: center;
     text-decoration: none;
-    color: #141414;
+    color: var(--txt1);
     background: #fff;
     padding:15px 100px;
     border-radius: 30px;
@@ -31,7 +35,7 @@ body {
 }
 
 .redes-sociais a:hover {
-    background: #141414;
+    background: var(--txt1);
     color: #fff;
 
 }
@@ -104,7 +108,7 @@ embed {
 
 .links-ao-redor a{
 text-decoration: none;
-color:#141414;
+color:var(--txt1);
 text-transform: uppercase;
 background: #fff;
 padding: 15px 30px;
@@ -112,7 +116,7 @@ border-radius: 50px;
 }
 
 .links-ao-redor a:hover{
-background: #141414;
+background: var(--txt1);
 color:#fff;
 
 }
@@ -127,7 +131,7 @@ flex-direction: row;
 display: block;
 width:13ch;
 margin: auto;
-color:#141414;
+color:var(--txt1);
 background: #fff;
 text-decoration: none;
 text-transform: uppercase;
@@ -139,7 +143,7 @@ text-align: center;
 display: block;
 width:max-content;
 margin:auto;
-color:#141414;
+color:var(--txt1);
 background: #fff;
 text-decoration: none;
 text-transform: uppercase;
@@ -172,12 +176,12 @@ margin-top: 10px;}
 }
 
 .arq:hover{
-background: #141414;
+background: var(--txt1);
 color:#fff;
 }       
 
 .cont:hover{
-background: #141414;
+background: var(--txt1);
 color:#fff;
 }       
 
@@ -249,7 +253,7 @@ color: #525252;
 }
 
 .experiencia-texto strong {
-    color: #141414;
+    color: var(--txt1);
 }
 
 .empresa {
@@ -315,7 +319,7 @@ color: #525252;
         gap: 40px;
     }
     .experiencia .subtitulo {
-        color: #141414;
+        color: var(--txt1);
     }
     .subtitulo { 
         font-size: 3rem;
@@ -367,11 +371,11 @@ color: #525252;
 }
 strong a {
     text-decoration: none;
-    color: #141414;
+    color: var(--txt1);
 }
 
 .formacao {
-    background: #141414 ;
+    background: var(--txt1);
     color: #fff;
 
 }
@@ -530,7 +534,7 @@ strong a {
 span a{
 position:relative;
 text-decoration: none;
-color: #141414;
+color: var(--txt1);
 }
 
 .footer{
@@ -618,7 +622,7 @@ button {
     padding: 10px 20px;
     background: #a3a3a3;
     border: none;
-    color: #141414;
+    color: var(--txt1);
     border-radius: 4px;
     cursor: pointer;
 }
