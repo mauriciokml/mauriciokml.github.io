@@ -339,6 +339,7 @@ a:focus {
         grid-template-columns: 1fr;
         justify-items: center;
         background: #fff;
+        border-radius: 50px;
     }
     .introducao::before {
         display: none;
@@ -349,6 +350,8 @@ a:focus {
     .introducao {
         text-align: left;
         justify-items: start;
+        border-radius: 50px;
+
     }
     .subtitulo {
         gap: 10px;
@@ -361,6 +364,17 @@ a:focus {
     }
     .spot {
         position: relative;
+    }
+    .introducao {
+        order: 2;
+    }
+    .introducao-cover {
+        border-radius: 50px;
+
+        order: 1;
+    }
+    .fotinha {
+        border-radius: 50px;
     }
 }
 
