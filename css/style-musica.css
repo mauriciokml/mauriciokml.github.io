@@ -4,6 +4,8 @@
     --txt2 : #525252;
     --branco: #fff;
     --preto: #000;
+    --formacao-txt: #a3a3a3;
+    --detalhe: linear-gradient(#b6f829, #67dd0a);
 }
 
 body {
@@ -40,7 +42,7 @@ ul {
     content: "";
     width: 60px;
     height: 8px;
-    background: #e21;
+    background: var(--detalhe);
 }
 
 .introducao-cover img {
@@ -123,7 +125,7 @@ p {
 }
 
 .botao {
-    background: #e21;
+    background: var(--detalhe);
     color: var(--branco);
     padding: 15px 30px;
     border-radius: 30px ;
@@ -133,7 +135,7 @@ p {
 .subtitulo {
     font-size: 4rem;
     text-transform: uppercase;
-    color: rgba(0,0,0,0.2);
+    color: var(--formacao-txt);
     text-align: right;
     padding: 40px;
     align-self: center;
