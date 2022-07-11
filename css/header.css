@@ -1,5 +1,7 @@
 :root {
     --txt1: #141414;
+    --branco: #fff;
+    --preto: #000;
 }
 
 .cabecalho {
@@ -27,7 +29,7 @@
     display: block;
 }
 .cabecalho_menu a:hover {
-    background: #fff;
+    background: var(--branco);
     border-radius: 50px;
 }
 

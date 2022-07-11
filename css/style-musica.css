@@ -1,12 +1,16 @@
 :root {
     --txt1: #141414;
+    --fundo: #f7f7f7;
+    --txt2 : #525252;
+    --branco: #fff;
+    --preto: #000;
 }
 
 body {
     max-width: 1200px;
     font-family: roboto, Arial, Helvetica, sans-serif;
     margin: 0px;
-    background: #f7f7f7;
+    background: var(--fundo);
     gap: 60px;
     justify-items: center;
     align-items: center;
@@ -21,7 +25,7 @@ ul {
 .introducao-cover {
     margin: 0px;
     padding: 0px;
-    background: #fff;
+    background: var(--branco);
 }
 
 .ultimos li {
@@ -29,7 +33,7 @@ ul {
 }
 
 .ultimos li:hover {
-    border-left: 4px solid #fff;
+    border-left: 4px solid var(--branco);
 }
 
 .introducao::before {
@@ -81,7 +85,7 @@ p {
 }
 
 .menu a {
-    background: #fff;
+    background: var(--branco);
     padding: 15px 30px;
     border-radius: 30px;
     color: var(--txt1);
@@ -107,7 +111,7 @@ p {
 }
 
 .introducao {
-    background: #fff;
+    background: var(--branco);
     padding: 2rem;
     text-align: right;
     position: relative;
@@ -120,7 +124,7 @@ p {
 
 .botao {
     background: #e21;
-    color: #fff;
+    color: var(--branco);
     padding: 15px 30px;
     border-radius: 30px ;
     text-transform: uppercase;
@@ -169,22 +173,22 @@ padding: 5px;
 
 .link_spotify:hover {
     background: var(--txt1);
-    color: #fff;
+    color: var(--branco)f;
 }
 
 .link_youtube:hover {
     background: var(--txt1);
-    color: #fff;
+    color: var(--branco);
 }
 
 .link_twitter:hover {
     background: var(--txt1);
-    color: #fff;
+    color: var(--branco);
 }
 
 .link_sessions:hover {
     background: var(--txt1);
-    color: #fff;
+    color: var(--branco);
 }
 
 .botao:hover {
@@ -192,34 +196,34 @@ padding: 5px;
 }
 
 .ouvir_2k22:hover {
-    color: #fff;
+    color: var(--branco);
     background: var(--txt1);
 }
 
 .ouvir_dpt:hover {
-    color: #fff;
+    color: var(--branco);
     background: var(--txt1);
 }
 
 .ouvir_quarentune:hover {
-    color: #fff;
+    color: var(--branco)f;
     background: var(--txt1);
 }
 
 .ouvir_2k22 {
-    background: #fff;
+    background: var(--branco);
     padding: 10px;
     border-radius: 30px;
 }
 
 .ouvir_dpt {
-    background: #fff;
+    background: var(--branco);
     padding: 10px;
     border-radius: 30px;
 }
 
 .ouvir_quarentune {
-    background: #fff;
+    background: var(--branco);
     padding: 10px;
     border-radius: 30px;
 }
@@ -293,7 +297,7 @@ a:focus {
     
     }
     .ouvir_2k22, .ouvir_dpt, .ouvir_quarentune {
-        background: #fff;
+        background: var(--branco);
         padding: 20px;
         border-radius: 50px;
         text-align: center;
@@ -308,7 +312,7 @@ a:focus {
         border-right: 4px solid transparent;
     }
     .ultimos li:hover {
-        border-right: 4px solid #fff;
+        border-right: 4px solid var(--branco);
     }
     .header {
         display: grid;
@@ -342,7 +346,7 @@ a:focus {
     .conteudo {
         grid-template-columns: 1fr;
         justify-items: center;
-        background: #fff;
+        background: var(--branco);
         border-radius: 50px;
     }
     .introducao::before {
@@ -387,7 +391,7 @@ a:focus {
     display: none;
 }
 .ouvir_2k22, .ouvir_dpt, .ouvir_quarentune {
-    background: #fff;
+    background: var(--branco);
     padding: 10px;
     position: relative;
 }
@@ -398,7 +402,7 @@ a:focus {
     padding: 5px;  
 }
 .ouvir_2k22, .ouvir_dpt, .ouvir_quarentune {
-    background: #fff;
+    background: var(--branco);
     padding: 5px;
     margin: 10px;
     max-width: 100%;

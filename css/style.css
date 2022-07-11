@@ -1,5 +1,10 @@
 :root {
     --txt1 : #141414;
+    --fundo: #f7f7f7;
+    --txt2 : #525252;
+    --branco: #fff;
+    --preto: #000;
+
 }
 
 body {
@@ -7,7 +12,7 @@ body {
     margin: 0px;
     font-family: roboto,Arial, Helvetica, sans-serif;
     color: var(--txt1) ;
-    background: #f7f7f7;
+    background: var(--fundo);
     justify-items: center;
     gap: 60px;
 }
@@ -28,7 +33,7 @@ body {
     align-items: center;
     text-decoration: none;
     color: var(--txt1);
-    background: #fff;
+    background: var(--branco);
     padding:15px 100px;
     border-radius: 30px;
     text-transform: uppercase;
@@ -36,7 +41,7 @@ body {
 
 .redes-sociais a:hover {
     background: var(--txt1);
-    color: #fff;
+    color: var(--branco)f;
 
 }
 
@@ -110,14 +115,14 @@ embed {
 text-decoration: none;
 color:var(--txt1);
 text-transform: uppercase;
-background: #fff;
+background: var(--branco);
 padding: 15px 30px;
 border-radius: 50px;
 }
 
 .links-ao-redor a:hover{
 background: var(--txt1);
-color:#fff;
+color:var(--branco)f;
 
 }
 
@@ -132,7 +137,7 @@ display: block;
 width:13ch;
 margin: auto;
 color:var(--txt1);
-background: #fff;
+background: var(--branco)f;
 text-decoration: none;
 text-transform: uppercase;
 padding: 15px 30px;
@@ -144,7 +149,7 @@ display: block;
 width:max-content;
 margin:auto;
 color:var(--txt1);
-background: #fff;
+background: var(--branco);
 text-decoration: none;
 text-transform: uppercase;
 padding: 15px 30px;
@@ -177,12 +182,12 @@ margin-top: 10px;}
 
 .arq:hover{
 background: var(--txt1);
-color:#fff;
+color:var(--branco);
 }       
 
 .cont:hover{
 background: var(--txt1);
-color:#fff;
+color:var(--branco);
 }       
 
 
@@ -204,7 +209,7 @@ color:#fff;
 
 .introducao-tech p {
 font-size: 1.5rem;
-color: #525252;
+color: var(--txt2);
 }
 
 @media (max-width: 1000px) {
@@ -249,7 +254,7 @@ color: #525252;
     line-height: 1.33;
     max-width: 40ch;
     margin-bottom: 60px;
-    color: #525252;
+    color: var(--txt2);
 }
 
 .experiencia-texto strong {
@@ -273,7 +278,7 @@ color: #525252;
     left: -100px;
     text-align: right;
     width: 80px;
-    color: #525252;
+    color: var(--txt2);
     font-size: 0.87rem;
 }
 .empresa::before {
@@ -296,7 +301,7 @@ color: #525252;
 .empresa-texto {
     font-size: 0.875rem;
     line-height: 1.4;
-    color: #525252;
+    color: var(--txt2);
 }
 
 .empresa-habilidades {
@@ -309,7 +314,7 @@ color: #525252;
 .empresa-habilidades li {
     font-size: 0.875rem;
     border-radius: 4px;
-    background: #fff;
+    background: var(--branco);
     padding: 5px 10px;
 }
 
@@ -376,7 +381,7 @@ strong a {
 
 .formacao {
     background: var(--txt1);
-    color: #fff;
+    color: var(--branco);
 
 }
 
@@ -402,7 +407,7 @@ strong a {
 }
 
 .formacao .subtitulo {
-    color: #000;
+    color: var(--preto);
     max-width: 5ch;
 }
 
@@ -415,7 +420,7 @@ strong a {
 }
 
 .formacao-texto strong {
-    color: #fff;
+    color: var(--branco);
 }
 
 .faculdade-lista {
@@ -427,7 +432,7 @@ strong a {
 
 .faculdade {
     flex: 1;
-    background: #000;
+    background: var(--preto);
     padding: 20px;
     border-radius: 4px;
     display: flex;
@@ -519,7 +524,7 @@ strong a {
         gap: 40px;
     }
     .formacao .subtitulo {
-        color: #fff;
+        color: var(--branco);
     }
     .formacao-texto {
         font-size: 1.125rem;
@@ -538,7 +543,7 @@ color: var(--txt1);
 }
 
 .footer{
-    background:#000;
+    background:var(--preto);
 }
 
 .footer-container {
@@ -561,12 +566,12 @@ color: var(--txt1);
 font-weight: bold;
 font-size: 1.85rem;
 line-height: 1.1;
-color: #fff;
+color: var(--branco);
 margin-bottom: 30px;
 }
 
 .footer-contato a {
-    color: #fff;
+    color: var(--branco);
 }
 
 @media (max-width: 800px) {
