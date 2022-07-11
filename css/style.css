@@ -1,9 +1,4 @@
-html {
-    max-width:100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-}
+
 body {
     max-width: 1200px;
     margin: 0px;
