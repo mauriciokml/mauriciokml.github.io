@@ -1,0 +1,390 @@
+body {
+    max-width: 1200px;
+    font-family: roboto;
+    margin: 0px;
+    background: #f7f7f7;
+    gap: 60px;
+    justify-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+    
+.introducao-cover {
+    margin: 0px;
+    padding: 0px;
+    background: #fff;
+}
+
+.ultimos li {
+    border-left: 4px solid transparent;
+}
+
+.ultimos li:hover {
+    border-left: 4px solid #fff;
+}
+
+.introducao::before {
+    content: "";
+    width: 60px;
+    height: 8px;
+    background: #e21;
+}
+
+.introducao-cover img {
+    object-fit: cover;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header {
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+}
+
+.menu a {
+    display: block;
+}
+
+p, h1, h2, h3 {
+    margin: 0px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu a {
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.fotinha {
+    max-width: 100%;
+    position: relative;
+}
+
+.conteudo-lancamentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+}
+
+.introducao {
+    background: #fff;
+    padding: 2rem;
+    text-align: right;
+    position: relative;
+    display: grid;
+    align-content: center;
+    gap: 20px;
+    justify-items: end;
+    font-size: 1.25rem;
+}
+
+.botao {
+    background: #e21;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px ;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.2);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+}
+
+.ultimos {
+    padding: 50px;
+}
+
+.ultimos-item {
+    display:flex;
+    grid-template-columns: auto 1fr;
+    gap: 10px 110px;
+    padding: 10px;
+}
+
+.spot {
+    position: relative;
+    height: 2rem;
+    bottom: -2px;
+}
+
+.rodape {
+    background: #fff;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.rodape p {
+    max-width: 100%;
+    text-align: center;
+}
+
+.uni {
+padding: 5px;
+}
+
+.link_spotify:hover {
+    background: #000;
+    color: #fff;
+}
+
+.link_youtube:hover {
+    background: #000;
+    color: #fff;
+}
+
+.link_twitter:hover {
+    background: #000;
+    color: #fff;
+}
+
+.link_sessions:hover {
+    background: #000;
+    color: #fff;
+}
+
+.botao:hover {
+    color: #000;
+}
+
+.ouvir_2k22:hover {
+    color: #fff;
+    background: #000;
+}
+
+.ouvir_dpt:hover {
+    color: #fff;
+    background: #000;
+}
+
+.ouvir_quarentune:hover {
+    color: #fff;
+    background: #000;
+}
+
+.ouvir_2k22 {
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.ouvir_dpt {
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.ouvir_quarentune {
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+h3 {
+    font-size:large;
+    position:relative;
+    width:14rem;
+}
+
+.free {
+left:20px;
+margin: 0px;
+padding: 0px;
+bottom: -9px;
+}
+
+.dptt {
+left:20px;
+margin: 0px;
+padding: 0px;
+bottom: -9px;
+}
+
+.ep {
+left:20px;
+margin: 0px;
+padding: 0px;
+bottom: -9px;
+}
+
+a:focus {
+}
+
+@media (min-width: 1000px) {
+    p {
+    max-width: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .conteudo-lancamentos {
+        grid-template-columns: 1fr;
+    }
+    .subtitulo {
+        text-align: center;
+    }
+    .ultimos {
+        align-items: center;
+        margin: 0px;
+        gap: 0px;
+        padding: 20px;  
+    }
+    .ultimos-item {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .spot {
+        position: relative;
+        bottom: -25px;
+    }
+    h3 {
+        position: relative;
+        font-size: 1.5rem;
+        text-align: center;
+        width:100%;
+        gap: 0px;
+        align-items: center;
+        margin: 10px;
+        top: -15px;
+    
+    }
+    .ouvir_2k22, .ouvir_dpt, .ouvir_quarentune {
+        background: #fff;
+        padding: 20px;
+        border-radius: 50px;
+        text-align: center;
+        padding: 10px;
+        margin: 20px;
+        max-width: 50px;
+        position: absolute;
+        right: 1rem;
+
+    }
+    .ultimos li {
+        border-right: 4px solid transparent;
+    }
+    .ultimos li:hover {
+        border-right: 4px solid #fff;
+    }
+    .header {
+        display: grid;
+        justify-items: center;
+        gap: 20px;
+    }
+    
+    .free {
+        left:0px;
+        margin: 0px;
+        padding: 0px;
+        bottom: -0px;
+        }
+        
+    .dptt {
+        left:0px;
+        margin: 0px;
+        padding: 0px;
+        bottom: -0px;
+        }
+        
+    .ep {
+        left:0px;
+        margin: 0px;
+        padding: 0px;
+        bottom: -0px;
+        } 
+    }
+
+@media (max-width: 600px) {
+    .conteudo {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        background: #fff;
+    }
+    .introducao::before {
+        display: none;
+    }
+    h1 {
+        padding: 10px;
+    }
+    .introducao {
+        text-align: left;
+        justify-items: start;
+    }
+    .subtitulo {
+        gap: 10px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .spot {
+        position: relative;
+    }
+}
+
+@media (max-width: 400px) {
+    .spot {
+    display: none;
+}
+.ouvir_2k22, .ouvir_dpt, .ouvir_quarentune {
+    background: #fff;
+    padding: 10px;
+    position: relative;
+}
+.ultimos {
+    align-items: center;
+    margin: 0px;
+    gap: 0px;
+    padding: 5px;  
+}
+.ouvir_2k22, .ouvir_dpt, .ouvir_quarentune {
+    background: #fff;
+    padding: 5px;
+    margin: 10px;
+    max-width: 100%;
+    right: 0rem;
+    bottom: 15px;
+}
+}
