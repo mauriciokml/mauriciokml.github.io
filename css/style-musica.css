@@ -1,10 +1,11 @@
 body {
     max-width: 1200px;
-    font-family: roboto;
+    font-family: roboto, Arial, Helvetica, sans-serif;
     margin: 0px;
     background: #f7f7f7;
     gap: 60px;
     justify-items: center;
+    align-items: center;
 }
 
 ul {
@@ -148,7 +149,6 @@ p {
 }
 
 .rodape {
-    background: #fff;
     width: 100%;
     padding: 30px;
     box-sizing: border-box;

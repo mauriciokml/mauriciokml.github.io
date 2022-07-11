@@ -1,8 +1,7 @@
-
 body {
     max-width: 1200px;
     margin: 0px;
-    font-family: roboto;
+    font-family: roboto,Arial, Helvetica, sans-serif;
     color: #141414 ;
     background: #f7f7f7;
     justify-items: center;
@@ -630,3 +629,8 @@ form {
     padding: 50px 50px;
 }
 
+    .body-index {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
