@@ -11,6 +11,12 @@
     --detalhe: linear-gradient(#b6f829, #67dd0a);
 
 }
+@media (prefers-color-scheme: dark) {
+    :root {
+
+
+    }
+}
 
 body {
     max-width: 1200px;
