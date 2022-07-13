@@ -18,7 +18,6 @@
         --branco: #000;
         --preto: #fff;    
         --div-claro:#141414;
-
     }
 }
 
@@ -57,7 +56,7 @@ body {
 
 .redes-sociais a:hover {
     background: var(--txt1);
-    color: var(--branco)f;
+    color: var(--branco);
 
 }
 
