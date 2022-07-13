@@ -1,6 +1,6 @@
 :root {
-    --txt1 : #141414;
     --fundo: #f7f7f7;
+    --txt1 : #141414;
     --txt2 : #525252;
     --branco: #fff;
     --preto: #000;
@@ -9,14 +9,19 @@
     --formacao-txt: #a3a3a3;
     --extra: #8f8f8f;
     --detalhe: linear-gradient(#b6f829, #67dd0a);
-
 }
 @media (prefers-color-scheme: dark) {
     :root {
-
+        --fundo: #0e0e0e;
+        --txt1 : #f5f5f5;
+        --txt2 : #525252;
+        --branco: #000;
+        --preto: #fff;    
+        --div-claro:#141414;
 
     }
 }
+
 
 body {
     max-width: 1200px;
@@ -417,7 +422,7 @@ strong a {
 }
 
 .formacao .subtitulo {
-    color: var(--preto);
+    color: var(--div-claro);
     max-width: 5ch;
 }
 
